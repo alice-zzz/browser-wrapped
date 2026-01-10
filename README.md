@@ -11,6 +11,19 @@ Backend: Since many consider their browser history to be private information, I 
 
 Parsing: To take the raw browser history and turn it into fun insights, I used FileReaderAPI to read the uploaded file, and Javascript to sort through parse the information. 
 
+# Installation and Setup
+Clone this project: git clone https://github.com/alice-zzz/browser-wrapped.git
+
+Navigate to project directory: cd browser-wrapped
+
+Install dependencies: npm install
+
+Run the development server: npm run dev
+
+Visit the local URL in your terminal
+
+
 # Future Improvements
 UI: While the slides are dynamic and the base has been made, I have yet to add a fun layout. This will be added as soon as I think of a theme, as it will enhance the storytelling experience.
+
 Parsing multiple formats: Currently, the user must upload their browser history as a JSON file to be parsed. I would like to expand this. 
